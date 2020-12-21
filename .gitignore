@@ -1,0 +1,7 @@
+# Node stuff:
+node_modules
+*.log
+
+# OS Stuff:
+.DS_Store
+.npm

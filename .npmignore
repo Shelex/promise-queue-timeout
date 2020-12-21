@@ -1,0 +1,15 @@
+# Node stuff:
+node_modules
+*.log
+
+# OS Stuff:
+.DS_Store
+.npm
+
+# Dev stuff:
+.vscode
+.github
+test
+.prettierrc.json
+.eslintrc.json
+.eslintignore
