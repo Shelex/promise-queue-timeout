@@ -1,9 +1,8 @@
 # promise-queue-timeout
 
 ![Build][gh-image]
-[![Downloads][downloads-image]][npm-url]
-[![semantic-release][semantic-image]][semantic-url]  
-[![version][version-image]][npm-url]
+[![version][version-image]][npm-url]  
+[![semantic-release][semantic-image]][semantic-url]
 [![License][license-image]][license-url]
 
 promise queue with option to limit new task start time with timeout
@@ -106,3 +105,12 @@ Copyright © 2020 Oleksandr Shevtsov <ovr.shevtsov@gmail.com>
 This work is free. You can redistribute it and/or modify it under the
 terms of the [MIT License](https://opensource.org/licenses/MIT).
 See LICENSE for full details.
+
+[npm-url]: https://npmjs.com/package/@shelex/promise-queue-timeout
+[gh-image]: https://github.com/Shelex/promise-queue-timeout/workflows/Release/badge.svg?branch=master
+[types-path]: ./index.d.ts
+[semantic-image]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
+[semantic-url]: https://github.com/semantic-release/semantic-release
+[license-image]: https://img.shields.io/npm/l/@shelex/promise-queue-timeout
+[license-url]: https://opensource.org/licenses/MIT
+[version-image]: https://badgen.net/npm/v/@shelex/promise-queue-timeout/latest
