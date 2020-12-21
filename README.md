@@ -1,5 +1,11 @@
 # promise-queue-timeout
 
+![Build][gh-image]
+[![Downloads][downloads-image]][npm-url]
+[![semantic-release][semantic-image]][semantic-url]  
+[![version][version-image]][npm-url]
+[![License][license-image]][license-url]
+
 promise queue with option to limit new task start time with timeout
 
 ## Install
@@ -7,20 +13,20 @@ promise queue with option to limit new task start time with timeout
 -   yarn:
 
 ```bash
-yarn add @shelex/queue-promise-timeout
+yarn add @shelex/promise-queue-timeout
 ```
 
 -   npm:
 
 ```bash
-npm install @shelex/queue-promise-timeout
+npm install @shelex/promise-queue-timeout
 ```
 
 ## Usage
 
 ```js
-import Queue from '@shelex/queue-promise-timeout';
-// const Queue = require("@shelex/queue-promise-timeout")
+import Queue from '@shelex/promise-queue-timeout';
+// const Queue = require("@shelex/promise-queue-timeout")
 
 const runner = new Queue({
     executors: 2,
