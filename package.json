@@ -20,7 +20,8 @@
         "url": "https://github.com/Shelex/promise-queue-timeout/issues"
     },
     "publishConfig": {
-        "registry": "http://registry.npmjs.org/"
+        "registry": "http://registry.npmjs.org/",
+        "access": "public"
     },
     "keywords": [
         "queue",
