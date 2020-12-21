@@ -34,7 +34,7 @@ const runner = new Queue({
 
 runner.enqueue(task, 'A'); // starts automatically
 runner.enqueue(task, 'B'); // will be started after 2000ms
-runner.enqueue(task, 'C'); // will be started when A or B finished, after 2000ms from previous start
+runner.enqueue(task, 'C'); // will be started when A or B finished, but after 2000ms from previous start
 
 runner.on('resolve', (data) => console.log(data));
 runner.on('reject', (error) => console.error(error));
