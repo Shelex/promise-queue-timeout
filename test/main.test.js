@@ -1,14 +1,14 @@
 const chai = require('chai');
-const { newQueue, resolve, reject } = require('./util');
+const { newQueue, resolve, reject } = require('./test.data');
 
-describe('queue-promise-timeout', () => {
+describe('promise-queue-timeout', () => {
     const { expect } = chai;
 
     describe('start()', () => {
         it('should start if the queue is not empty', (done) => {
             const queue = newQueue();
 
-            expect(queue.state).to.equal(0); // pending
+            expect(queue.state).to.equal(0);
 
             queue.enqueue(resolve);
             queue.on('end', done());
